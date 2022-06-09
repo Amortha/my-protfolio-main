@@ -6,9 +6,13 @@ const Contact = () => {
     const sentEmail = e => {
         e.preventDefault();
 
-        emailjs.sendForm('service_ljyrmmj','template_kpgu8fa',e.target,'HyRCT2Ze4TNzAwK6N')
-            .then(res => console.log(res))
-            .catch(error => console.log(error));
+        emailjs.sendForm('service_kcdcr67','template_kpgu8fa',e.target,'HyRCT2Ze4TNzAwK6N')
+            .then(res=>{
+                console.log(res)
+            }).catch(err =>console.log(err))
+        
+        /* .then(res => console.log(res))
+            .catch(error => console.log(error)); */
     }
 
     return (
