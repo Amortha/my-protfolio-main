@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background-color: hsl(0, 0%, 4%);
+}
+
+h1,h3,h5,p{
+  color: #fff;
+}
+
+
+.tsparticles-canvas-el{
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
