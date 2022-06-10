@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AboutMe from './Components/AboutMe/AboutMe';
+import Blogs from './Components/Blogs/Blogs';
 import Headers from './Components/Headers/Headers';
 import Home from './Components/Home/Home';
 import ParticleBackground from './Components/ParticelsJs/ParticleBackground/ParticleBackground';
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/aboutme">
             <AboutMe></AboutMe>
+          </Route>
+          <Route path="/blogs">
+            <Blogs></Blogs>
           </Route>
           <Route path="/shop">
             <ShopDetails></ShopDetails>
