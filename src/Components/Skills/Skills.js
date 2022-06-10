@@ -2,6 +2,7 @@ import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
 import './Skills.css'
 
+// Amirtha
 const Skills = () => {
     const html = 90;
     const css = 80;
