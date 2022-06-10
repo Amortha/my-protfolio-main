@@ -53,8 +53,8 @@ const Projects = () => {
                                     <strong>Technology Used:</strong>CSS3,React Bootstrap5,React js,firebase,
                                 </p>
                             </div>
-                            <div className="d-flex align-items-sm-center justify-content-around">
-                                <Link>Details</Link>
+                            <div className="d-flex align-items-sm-center justify-content-around text-xl">
+                                <Link >Details</Link>
                                 <Nav.Link target="_blank" href="https://dazzling-naiad-e5340b.netlify.app">View Site</Nav.Link>
                             </div>
                         </div>
